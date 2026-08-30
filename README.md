@@ -76,6 +76,16 @@ The planned analysis would include:
 
 - Geographic distribution of Airbnb listings
 - Listing density by area
+
+- ## Dataset Availability
+
+The project uses datasets provided by Inside Airbnb.
+
+Due to GitHub's file size limitations, the original `cleaned_calendar.csv` and `cleaned_reviews.csv` files are not included in this repository.
+
+The calendar dataset was aggregated by `listing_id` before the merge, while the reviews dataset was analyzed separately and was not required for the final merged dataset.
+
+All analysis and transformations were performed locally using the original datasets.
 - Average price by geographical area
 - Price distribution across different areas
 - Comparison of room types by location
